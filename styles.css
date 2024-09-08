@@ -1,0 +1,90 @@
+* {font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;}
+
+body {
+    font-size: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-idiomas{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-idiomas-item{
+    color: #003366;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid;
+}
+
+.conteudo-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    justify-content: center;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    justify-content: center;
+}
+
+.conteudo-principal-paragrafo{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 24px;
+    justify-content: left;
+    text-align: justify;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.conteudo-principal-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    justify-content: center;
+}
+
+.horizontal{
+    color: black;
+}
+
+.conteudo-principal-imagem{
+    height: 480px;
+    width: 480px;
+    padding: 32px;
+}
+
+.backlink{
+    text-decoration: underline;
+    color: #003366;
+    align-items: left;
+}
